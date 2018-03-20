@@ -42,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		19EDFA727CB78ED1E33F2C08 /* Pods-Reactive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive/Pods-Reactive.debug.xcconfig"; sourceTree = "<group>"; };
+		23545CAA2060EAC900EBFB5A /* ReactivePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReactivePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
 		236DF0032060A0AA0045A5D6 /* Reactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236DF0062060A0AA0045A5D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		236DF0072060A0AA0045A5D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -104,6 +105,7 @@
 		236DEFFA2060A0AA0045A5D6 = {
 			isa = PBXGroup;
 			children = (
+				23545CAA2060EAC900EBFB5A /* ReactivePlayground.playground */,
 				236DF0052060A0AA0045A5D6 /* Reactive */,
 				236DF01E2060A0AA0045A5D6 /* ReactiveTests */,
 				236DF0292060A0AA0045A5D6 /* ReactiveUITests */,
