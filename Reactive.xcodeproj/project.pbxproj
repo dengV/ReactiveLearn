@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		23545CAE206103F600EBFB5A /* RawViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23545CAD206103F600EBFB5A /* RawViewController.m */; };
 		236DF0082060A0AA0045A5D6 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 236DF0072060A0AA0045A5D6 /* AppDelegate.m */; };
 		236DF00B2060A0AA0045A5D6 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236DF00A2060A0AA0045A5D6 /* ViewController.m */; };
 		236DF00E2060A0AA0045A5D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 236DF00C2060A0AA0045A5D6 /* Main.storyboard */; };
@@ -43,6 +44,8 @@
 /* Begin PBXFileReference section */
 		19EDFA727CB78ED1E33F2C08 /* Pods-Reactive.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Reactive.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Reactive/Pods-Reactive.debug.xcconfig"; sourceTree = "<group>"; };
 		23545CAA2060EAC900EBFB5A /* ReactivePlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = ReactivePlayground.playground; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.swift; };
+		23545CAC206103F600EBFB5A /* RawViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RawViewController.h; sourceTree = "<group>"; };
+		23545CAD206103F600EBFB5A /* RawViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RawViewController.m; sourceTree = "<group>"; };
 		236DF0032060A0AA0045A5D6 /* Reactive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Reactive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		236DF0062060A0AA0045A5D6 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		236DF0072060A0AA0045A5D6 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -102,6 +105,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23545CAB2061032F00EBFB5A /* SceneRaw */ = {
+			isa = PBXGroup;
+			children = (
+				23545CAC206103F600EBFB5A /* RawViewController.h */,
+				23545CAD206103F600EBFB5A /* RawViewController.m */,
+			);
+			path = SceneRaw;
+			sourceTree = "<group>";
+		};
 		236DEFFA2060A0AA0045A5D6 = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +140,7 @@
 		236DF0052060A0AA0045A5D6 /* Reactive */ = {
 			isa = PBXGroup;
 			children = (
+				23545CAB2061032F00EBFB5A /* SceneRaw */,
 				236DF0382060A5600045A5D6 /* Images */,
 				236DF03A2060A5610045A5D6 /* SceneOne */,
 				236DF0062060A0AA0045A5D6 /* AppDelegate.h */,
@@ -494,6 +507,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				236DF00B2060A0AA0045A5D6 /* ViewController.m in Sources */,
+				23545CAE206103F600EBFB5A /* RawViewController.m in Sources */,
 				236DF0402060A5610045A5D6 /* RWViewController.m in Sources */,
 				236DF0162060A0AA0045A5D6 /* main.m in Sources */,
 				236DF0082060A0AA0045A5D6 /* AppDelegate.m in Sources */,

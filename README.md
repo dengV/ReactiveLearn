@@ -5,7 +5,19 @@ ReactiveLearn, via Ray Wenderlich
 
 
 <hr>
-[ReactiveCocoa/ReactiveObjC](https://github.com/ReactiveCocoa/ReactiveObjC)
+
+<ul>
+<li>
+<a href="https://github.com/ReactiveCocoa/ReactiveObjC">ReactiveCocoa/ReactiveObjC</a>
+</li>
+
+<li>
+<a href="https://msdn.microsoft.com/library/hh242985.aspx">MSDN: Reactive Extensions</a>
+
+
+</li>
+
+</ul>
 <hr>
 
 
