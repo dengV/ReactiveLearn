@@ -8,8 +8,14 @@ ReactiveLearn, via Ray Wenderlich
 ###  pipeline.
 ##### It is the very essence of Reactive Programming, where you express your application’s functionality in terms of data flows.
 
+<hr>
 
 
+<hr>
+
+#### Combining signals
+
+<img src="Images/CombinePipeline.png">
 
 
 <hr>

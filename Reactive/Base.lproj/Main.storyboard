@@ -57,9 +57,6 @@
                                 <state key="normal" title="Sign In">
                                     <color key="titleShadowColor" red="0.5" green="0.5" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
-                                <connections>
-                                    <action selector="signInButtonTouched:" destination="Rmd-QD-Miz" eventType="touchUpInside" id="oJb-Zu-GEn"/>
-                                </connections>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Invalid credentials" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Acs-4x-2qf">
                                 <rect key="frame" x="45" y="205" width="147" height="21"/>
