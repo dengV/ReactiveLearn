@@ -23,9 +23,9 @@
 		23A5881C2061F73500C6258F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A5881B2061F73500C6258F /* background.jpg */; };
 		23A5881F2061F7C700C6258F /* TwitterInstance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A5881D2061F7C700C6258F /* TwitterInstance.storyboard */; };
 		23A588292061F84800C6258F /* RWSearchFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588242061F84800C6258F /* RWSearchFormViewController.m */; };
-		23A5882A2061F84800C6258F /* RWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588252061F84800C6258F /* RWTweet.m */; };
-		23A5882B2061F84800C6258F /* RWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588262061F84800C6258F /* RWTableViewCell.m */; };
 		23A5882C2061F84800C6258F /* RWSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588272061F84800C6258F /* RWSearchResultsViewController.m */; };
+		23A588332061FB8F00C6258F /* RWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A5882F2061FB8F00C6258F /* RWTweet.m */; };
+		23A588342061FB8F00C6258F /* RWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588322061FB8F00C6258F /* RWTableViewCell.m */; };
 		2CA5FDCF3E6CC8A28506398F /* libPods-Reactive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3356B3363A9262F00C241F45 /* libPods-Reactive.a */; };
 		AC148955D5C7D7DC4A186286 /* libPods-ReactiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9743211E1A4CCE5904123978 /* libPods-ReactiveTests.a */; };
 		BAD8289F1827CDC760B5789A /* libPods-ReactiveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDCD634B296B6EE1F41FEB /* libPods-ReactiveUITests.a */; };
@@ -77,14 +77,14 @@
 		23A588192061F6D700C6258F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		23A5881B2061F73500C6258F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
 		23A5881E2061F7C700C6258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TwitterInstance.storyboard; sourceTree = "<group>"; };
-		23A588212061F84800C6258F /* RWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableViewCell.h; sourceTree = "<group>"; };
-		23A588222061F84800C6258F /* RWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTweet.h; sourceTree = "<group>"; };
 		23A588232061F84800C6258F /* RWSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchResultsViewController.h; sourceTree = "<group>"; };
 		23A588242061F84800C6258F /* RWSearchFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchFormViewController.m; sourceTree = "<group>"; };
-		23A588252061F84800C6258F /* RWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTweet.m; sourceTree = "<group>"; };
-		23A588262061F84800C6258F /* RWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableViewCell.m; sourceTree = "<group>"; };
 		23A588272061F84800C6258F /* RWSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchResultsViewController.m; sourceTree = "<group>"; };
 		23A588282061F84800C6258F /* RWSearchFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchFormViewController.h; sourceTree = "<group>"; };
+		23A5882E2061FB8F00C6258F /* RWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTweet.h; sourceTree = "<group>"; };
+		23A5882F2061FB8F00C6258F /* RWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTweet.m; sourceTree = "<group>"; };
+		23A588312061FB8F00C6258F /* RWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableViewCell.h; sourceTree = "<group>"; };
+		23A588322061FB8F00C6258F /* RWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableViewCell.m; sourceTree = "<group>"; };
 		2EDF0557BDC5866E46D0304C /* Pods-ReactiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveUITests/Pods-ReactiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3356B3363A9262F00C241F45 /* libPods-Reactive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB954679EF6106BA5B1D122 /* Pods-ReactiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTests/Pods-ReactiveTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -218,16 +218,32 @@
 		23A588202061F84800C6258F /* SceneTwitter */ = {
 			isa = PBXGroup;
 			children = (
-				23A588212061F84800C6258F /* RWTableViewCell.h */,
-				23A588222061F84800C6258F /* RWTweet.h */,
-				23A588232061F84800C6258F /* RWSearchResultsViewController.h */,
-				23A588242061F84800C6258F /* RWSearchFormViewController.m */,
-				23A588252061F84800C6258F /* RWTweet.m */,
-				23A588262061F84800C6258F /* RWTableViewCell.m */,
-				23A588272061F84800C6258F /* RWSearchResultsViewController.m */,
+				23A5882D2061FB8F00C6258F /* Model */,
+				23A588302061FB8F00C6258F /* View */,
 				23A588282061F84800C6258F /* RWSearchFormViewController.h */,
+				23A588242061F84800C6258F /* RWSearchFormViewController.m */,
+				23A588232061F84800C6258F /* RWSearchResultsViewController.h */,
+				23A588272061F84800C6258F /* RWSearchResultsViewController.m */,
 			);
 			path = SceneTwitter;
+			sourceTree = "<group>";
+		};
+		23A5882D2061FB8F00C6258F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				23A5882E2061FB8F00C6258F /* RWTweet.h */,
+				23A5882F2061FB8F00C6258F /* RWTweet.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		23A588302061FB8F00C6258F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				23A588312061FB8F00C6258F /* RWTableViewCell.h */,
+				23A588322061FB8F00C6258F /* RWTableViewCell.m */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 		802FC80E2D9ADADF6D4725FC /* Pods */ = {
@@ -550,12 +566,12 @@
 				23545CAE206103F600EBFB5A /* RawViewController.m in Sources */,
 				236DF0402060A5610045A5D6 /* RWViewController.m in Sources */,
 				23A588292061F84800C6258F /* RWSearchFormViewController.m in Sources */,
-				23A5882B2061F84800C6258F /* RWTableViewCell.m in Sources */,
+				23A588342061FB8F00C6258F /* RWTableViewCell.m in Sources */,
 				236DF0162060A0AA0045A5D6 /* main.m in Sources */,
 				236DF0082060A0AA0045A5D6 /* AppDelegate.m in Sources */,
-				23A5882A2061F84800C6258F /* RWTweet.m in Sources */,
 				23A5882C2061F84800C6258F /* RWSearchResultsViewController.m in Sources */,
 				236DF0412060A5610045A5D6 /* RWDummySignInService.m in Sources */,
+				23A588332061FB8F00C6258F /* RWTweet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -727,6 +743,7 @@
 			baseConfigurationReference = 19EDFA727CB78ED1E33F2C08 /* Pods-Reactive.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZPF2ERCW9;
 				INFOPLIST_FILE = Reactive/Info.plist;
@@ -742,6 +759,7 @@
 			baseConfigurationReference = DBE3BA275ECC53D4662862BD /* Pods-Reactive.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 9ZPF2ERCW9;
 				INFOPLIST_FILE = Reactive/Info.plist;

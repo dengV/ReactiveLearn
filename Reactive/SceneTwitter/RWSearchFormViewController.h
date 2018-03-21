@@ -8,6 +8,15 @@
 
 #import <UIKit/UIKit.h>
 
+
+/*
+ For Ipad
+ 
+ 
+ 
+ IPhone 横屏
+ */
+
 @interface RWSearchFormViewController : UIViewController
 
 @end

@@ -28,6 +28,22 @@ ReactiveLearn, via Ray Wenderlich
 
 
 <a href="https://github.com/ReactiveCocoa/ReactiveObjC">ReactiveCocoa/ReactiveObjC</a>
+
+
+
+</li>
+
+<li>
+
+<a href="https://github.com/ReactiveCocoa/ReactiveObjC/blob/master/Documentation/MemoryManagement.md"> Memory Management</a>
+</li>
+
+
+
+<li>
+
+<a href="https://github.com/ReactiveCocoa/ReactiveObjC/blob/master/Documentation/DesignGuidelines.md#avoid-explicit-subscriptions-and-disposal">Design Guidelines
+ </a>
 </li>
 <h3>MS Developer Net </h3>
 <br>
@@ -38,6 +54,15 @@ ReactiveLearn, via Ray Wenderlich
 
 
 </li>
+
+
+<li>
+<a href="https://blogs.msdn.microsoft.com/rxteam/2010/10/28/rx-design-guidelines/">Rx Design Guidelines</h>
+
+</li>
+<hr>
+
+
 
 <h3>Ray Wenderlich </h3>
 <br>
@@ -68,11 +93,33 @@ ReactiveLearn, via Ray Wenderlich
 
 <img src="Images/CombinePipeline.png">
 
+<br>
+<hr>
+<br>
 
+<img src="Images/SideEffects.png">
 <hr>
 
 
 <hr>
+
+
+### Tips
+
+#### Formatting of Pipelines
+
+When you’re delving into formatting ReactiveCocoa code, the generally accepted convention is to have each operation on a new line, and align all of the steps vertically.
+
+
+<hr>
+
+#### Memory Management
+
+ARC , 信号的 内存管理
+
+
+<hr>
+
 
 
 
