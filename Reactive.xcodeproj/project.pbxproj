@@ -19,6 +19,13 @@
 		236DF03F2060A5610045A5D6 /* kitten.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 236DF0392060A5600045A5D6 /* kitten.jpg */; };
 		236DF0402060A5610045A5D6 /* RWViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 236DF03D2060A5610045A5D6 /* RWViewController.m */; };
 		236DF0412060A5610045A5D6 /* RWDummySignInService.m in Sources */ = {isa = PBXBuildFile; fileRef = 236DF03E2060A5610045A5D6 /* RWDummySignInService.m */; };
+		23A5881A2061F6D700C6258F /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23A588192061F6D700C6258F /* Images.xcassets */; };
+		23A5881C2061F73500C6258F /* background.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 23A5881B2061F73500C6258F /* background.jpg */; };
+		23A5881F2061F7C700C6258F /* TwitterInstance.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23A5881D2061F7C700C6258F /* TwitterInstance.storyboard */; };
+		23A588292061F84800C6258F /* RWSearchFormViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588242061F84800C6258F /* RWSearchFormViewController.m */; };
+		23A5882A2061F84800C6258F /* RWTweet.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588252061F84800C6258F /* RWTweet.m */; };
+		23A5882B2061F84800C6258F /* RWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588262061F84800C6258F /* RWTableViewCell.m */; };
+		23A5882C2061F84800C6258F /* RWSearchResultsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 23A588272061F84800C6258F /* RWSearchResultsViewController.m */; };
 		2CA5FDCF3E6CC8A28506398F /* libPods-Reactive.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3356B3363A9262F00C241F45 /* libPods-Reactive.a */; };
 		AC148955D5C7D7DC4A186286 /* libPods-ReactiveTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9743211E1A4CCE5904123978 /* libPods-ReactiveTests.a */; };
 		BAD8289F1827CDC760B5789A /* libPods-ReactiveUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6FCDCD634B296B6EE1F41FEB /* libPods-ReactiveUITests.a */; };
@@ -67,6 +74,17 @@
 		236DF03C2060A5610045A5D6 /* RWDummySignInService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWDummySignInService.h; sourceTree = "<group>"; };
 		236DF03D2060A5610045A5D6 /* RWViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWViewController.m; sourceTree = "<group>"; };
 		236DF03E2060A5610045A5D6 /* RWDummySignInService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWDummySignInService.m; sourceTree = "<group>"; };
+		23A588192061F6D700C6258F /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		23A5881B2061F73500C6258F /* background.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = background.jpg; sourceTree = "<group>"; };
+		23A5881E2061F7C700C6258F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TwitterInstance.storyboard; sourceTree = "<group>"; };
+		23A588212061F84800C6258F /* RWTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTableViewCell.h; sourceTree = "<group>"; };
+		23A588222061F84800C6258F /* RWTweet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWTweet.h; sourceTree = "<group>"; };
+		23A588232061F84800C6258F /* RWSearchResultsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchResultsViewController.h; sourceTree = "<group>"; };
+		23A588242061F84800C6258F /* RWSearchFormViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchFormViewController.m; sourceTree = "<group>"; };
+		23A588252061F84800C6258F /* RWTweet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTweet.m; sourceTree = "<group>"; };
+		23A588262061F84800C6258F /* RWTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWTableViewCell.m; sourceTree = "<group>"; };
+		23A588272061F84800C6258F /* RWSearchResultsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RWSearchResultsViewController.m; sourceTree = "<group>"; };
+		23A588282061F84800C6258F /* RWSearchFormViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RWSearchFormViewController.h; sourceTree = "<group>"; };
 		2EDF0557BDC5866E46D0304C /* Pods-ReactiveUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveUITests/Pods-ReactiveUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		3356B3363A9262F00C241F45 /* libPods-Reactive.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Reactive.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BB954679EF6106BA5B1D122 /* Pods-ReactiveTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ReactiveTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ReactiveTests/Pods-ReactiveTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -140,6 +158,7 @@
 		236DF0052060A0AA0045A5D6 /* Reactive */ = {
 			isa = PBXGroup;
 			children = (
+				23A588202061F84800C6258F /* SceneTwitter */,
 				23545CAB2061032F00EBFB5A /* SceneRaw */,
 				236DF0382060A5600045A5D6 /* Images */,
 				236DF03A2060A5610045A5D6 /* SceneOne */,
@@ -150,8 +169,10 @@
 				236DF00C2060A0AA0045A5D6 /* Main.storyboard */,
 				236DF00F2060A0AA0045A5D6 /* Assets.xcassets */,
 				236DF0112060A0AA0045A5D6 /* LaunchScreen.storyboard */,
+				23A5881D2061F7C700C6258F /* TwitterInstance.storyboard */,
 				236DF0142060A0AA0045A5D6 /* Info.plist */,
 				236DF0152060A0AA0045A5D6 /* main.m */,
+				23A588192061F6D700C6258F /* Images.xcassets */,
 			);
 			path = Reactive;
 			sourceTree = "<group>";
@@ -177,6 +198,7 @@
 		236DF0382060A5600045A5D6 /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				23A5881B2061F73500C6258F /* background.jpg */,
 				236DF0392060A5600045A5D6 /* kitten.jpg */,
 			);
 			path = Images;
@@ -191,6 +213,21 @@
 				236DF03E2060A5610045A5D6 /* RWDummySignInService.m */,
 			);
 			path = SceneOne;
+			sourceTree = "<group>";
+		};
+		23A588202061F84800C6258F /* SceneTwitter */ = {
+			isa = PBXGroup;
+			children = (
+				23A588212061F84800C6258F /* RWTableViewCell.h */,
+				23A588222061F84800C6258F /* RWTweet.h */,
+				23A588232061F84800C6258F /* RWSearchResultsViewController.h */,
+				23A588242061F84800C6258F /* RWSearchFormViewController.m */,
+				23A588252061F84800C6258F /* RWTweet.m */,
+				23A588262061F84800C6258F /* RWTableViewCell.m */,
+				23A588272061F84800C6258F /* RWSearchResultsViewController.m */,
+				23A588282061F84800C6258F /* RWSearchFormViewController.h */,
+			);
+			path = SceneTwitter;
 			sourceTree = "<group>";
 		};
 		802FC80E2D9ADADF6D4725FC /* Pods */ = {
@@ -332,8 +369,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				236DF03F2060A5610045A5D6 /* kitten.jpg in Resources */,
+				23A5881A2061F6D700C6258F /* Images.xcassets in Resources */,
 				236DF0132060A0AA0045A5D6 /* LaunchScreen.storyboard in Resources */,
+				23A5881C2061F73500C6258F /* background.jpg in Resources */,
 				236DF0102060A0AA0045A5D6 /* Assets.xcassets in Resources */,
+				23A5881F2061F7C700C6258F /* TwitterInstance.storyboard in Resources */,
 				236DF00E2060A0AA0045A5D6 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -509,8 +549,12 @@
 				236DF00B2060A0AA0045A5D6 /* ViewController.m in Sources */,
 				23545CAE206103F600EBFB5A /* RawViewController.m in Sources */,
 				236DF0402060A5610045A5D6 /* RWViewController.m in Sources */,
+				23A588292061F84800C6258F /* RWSearchFormViewController.m in Sources */,
+				23A5882B2061F84800C6258F /* RWTableViewCell.m in Sources */,
 				236DF0162060A0AA0045A5D6 /* main.m in Sources */,
 				236DF0082060A0AA0045A5D6 /* AppDelegate.m in Sources */,
+				23A5882A2061F84800C6258F /* RWTweet.m in Sources */,
+				23A5882C2061F84800C6258F /* RWSearchResultsViewController.m in Sources */,
 				236DF0412060A5610045A5D6 /* RWDummySignInService.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -561,6 +605,14 @@
 				236DF0122060A0AA0045A5D6 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		23A5881D2061F7C700C6258F /* TwitterInstance.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				23A5881E2061F7C700C6258F /* Base */,
+			);
+			name = TwitterInstance.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
